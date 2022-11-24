@@ -1,0 +1,19 @@
+def inrtousd(inr):
+    amount = inr / 81
+    print(inr," INR are equal to ",amount," US Dollers")
+
+def usdtoinr(usd):
+    amount = usd * 81
+    print(usd," US Dollers are equal to ",amount," INR")
+
+print("Convert Currency")
+print("Press 1 TO convert INR to US Dollers")
+print("Press 2 TO convert US Dollers to INR")
+a = int(input(">>"))
+
+if a == 1:
+    rs = int(input("Enter The Amount of INR: "))
+    inrtousd(rs)
+else:
+    us = int(input("Enter The Amount of US Dollers: "))
+    usdtoinr(us)
