@@ -1,0 +1,13 @@
+name = input("Enter Your Name ")
+age = int(input("What Is Your Current Age "))
+proffesion = input("What Do You Want To Be In Your Future ")
+futureage = int(input("At What Age You Want To achive This Proffesion "))
+
+
+def userinfo(name,age,proffesion,futureage):
+
+    newage = futureage - age
+    print(name," will be a ",proffesion,"in ",newage," years")
+
+
+userinfo(name,age,proffesion,futureage)
